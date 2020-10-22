@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "MakerGear M2 Rev.G with BTT GTR v1.0"
+#define CUSTOM_MACHINE_NAME "M2G"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -743,7 +743,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 1007.7, 471.5 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 2015.75, 471.5 }
 
 /**
  * Default Max Feed Rate (mm/s)
