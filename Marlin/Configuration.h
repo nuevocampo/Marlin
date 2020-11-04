@@ -998,8 +998,8 @@
 //#define PROBING_MARGIN 10
 
 // M2G specific margins for probing 35mm from all edges
-#define PROBING_MARGIN_LEFT 16
-#define PROBING_MARGIN_RIGHT 60
+#define PROBING_MARGIN_LEFT 21
+#define PROBING_MARGIN_RIGHT 55
 #define PROBING_MARGIN_BACK 37
 #define PROBING_MARGIN_FRONT 35
 
