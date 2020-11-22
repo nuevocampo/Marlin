@@ -737,7 +737,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.1, 80.1, 1007.7, 471.5 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.1, 80.1, 1007.87, 462.17 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -988,7 +988,7 @@
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
 //#define PROBING_MARGIN 10
 
-// M2G specific margins for probing 35mm from all edges
+// M2G specific margins for probing at 35mm from all edges
 #define PROBING_MARGIN_LEFT 21
 #define PROBING_MARGIN_RIGHT 55
 #define PROBING_MARGIN_BACK 37
